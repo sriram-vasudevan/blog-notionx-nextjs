@@ -82,7 +82,7 @@ export default function Home({ recordMap }) {
 const notion = new NotionAPI();
 export const getStaticProps = async () => {
   // const pageId = context.params.pageId;
-  const pageId = "12ee34fde6824900a7cd367792703941";
+  const pageId = "893157be6a9d4e348621ee90166cefca";
 
   const recordMap = await notion.getPage(pageId);
   return {
