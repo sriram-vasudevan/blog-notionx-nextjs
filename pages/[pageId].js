@@ -59,8 +59,8 @@ export async function getStaticPaths() {
     };
   }
 
-  const rootNotionPageId = "12ee34fde6824900a7cd367792703941";
-  const rootNotionSpaceId = "0e72fe3e-b360-476a-8a5a-e3629b705856";
+  const rootNotionPageId = "893157be6a9d4e348621ee90166cefca";
+  const rootNotionSpaceId = "56e12f35-de5f-48cf-a8bc-5661a8bedc03";
 
   const pages = await getAllPagesInSpace(
     rootNotionPageId,
